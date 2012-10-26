@@ -4,10 +4,9 @@
 
 
 :autor: Martín Gaitán
-:evento: PyDay Córdoba 2012 (http://www.pydaycba.com.ar/)
-:lugar: Córdoba, Argentina
-:fecha: 15 de septiembre de 2012
-
+:evento: iSummit 2012 (http://www.pydaycba.com.ar/)
+:lugar: Loja, Ecuador
+:fecha: 26 de octubre de 2012
 |
 .. image:: http://mgaitan.github.com/curso-django/slides/static/img/cc_by_sa-3.png
    :align: center

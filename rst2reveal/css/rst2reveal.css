@@ -1,4 +1,5 @@
 body .reveal section {
+  margin-top: 50px;
   color: #1F3F57;
 }
 
@@ -43,12 +44,12 @@ background-image: -webkit-linear-gradient(left top, rgb(207,207,207) 1%, rgb(230
 background-image: -ms-linear-gradient(left top, rgb(207,207,207) 1%, rgb(230,230,230) 26%, rgb(185,190,201) 77%);
 
 background-image: -webkit-gradient(
-	linear,
-	left top,
-	right bottom,
-	color-stop(0.01, rgb(207,207,207)),
-	color-stop(0.26, rgb(230,230,230)),
-	color-stop(0.77, rgb(185,190,201))
+    linear,
+    left top,
+    right bottom,
+    color-stop(0.01, rgb(207,207,207)),
+    color-stop(0.26, rgb(230,230,230)),
+    color-stop(0.77, rgb(185,190,201))
 );
 }
 

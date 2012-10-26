@@ -30,32 +30,32 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-	<section style="background: url('img/machinalis.png');">
-	  <h1>__doc__ &quot;para todos y todas&quot;</h1>
+    <section>
+      <h1>__doc__ <br><br>para todos y todas</h1>
 
-	</section>
+    </section>
 
-	<section id="quien-soy">
+    <section id="quien-soy">
 <h2>Quién soy</h2>
 <ul class="simple">
-<li>A veces me lo pregunto</li>
-<li>Soy Martín (a.k.a. <em>tin_nqn</em>)<ul>
-<li>un hincha de Boca</li>
-<li>y de Python</li>
-<li>un ingeniero que trabaja en Machinalis</li>
-<li>y está creando Phasety :)</li>
+<li>Martín Gaitán</li>
+<ul>
+    <li>Ingeniero en Computación<br>Universidad Nacional de Córdoba, Argentina</li>
+    <li>Desarrollador Python/Django</li>
+    <li>Trabajo en Machinalis (<em>machinalis.com</em>)</li>
+    <li>y estoy creando Phasety (<em>phasety.com</em>)</li>
+    <li>Twitter: <em>@tin_nqn_</em></li>
 </ul>
 </li>
 </ul>
 </section><section id="que-hago-aca">
 <h2>Qué hago acá</h2>
-<p>A veces me lo pregunto :)</p>
 <ul class="simple">
 <li>Vine a compartir algunas ideas:<ul>
 <li>Programar está buenísimo (¡más con Python!)</li>
 <li>A programar se aprende programando</li>
 <li>Pero se empieza y se programa mejor cuando hay ayuda</li>
-<li>Ayuda = amigos geeks + documentación!</li>
+<li>Ayuda = profesores + amigos + documentación!</li>
 </ul>
 </li>
 </ul>
@@ -69,8 +69,8 @@ la culpa no es del chancho sino del que le da de comer -->
 <ul class="simple">
 <li>Documentación que de gusto leer</li>
 <li>Accesible, precisa y exhaustiva</li>
-<li>Todoterreno: de presentación, guia y referencia</li>
-<li>O sea... ¡Nos gusta la documentación pythónica!</li>
+<li>Todoterreno: de presentación, guía y referencia</li>
+<li>O sea... ¡Nos gusta la documentación Pythónica!</li>
 </ul>
 </section><section id="pero-existe">
 <h2>Pero ¿existe?</h2>
@@ -82,7 +82,7 @@ la culpa no es del chancho sino del que le da de comer -->
 </section><section id="ya-hay-mucha">
 <h2>¡Ya hay mucha!</h2>
 <ul class="simple">
-<li>Por ejemplo en ReadTheDocs.org !<ul>
+<li>Por ejemplo en ReadTheDocs.org<ul>
 <li><a class="reference external" href="http://">http://</a><em>&lt;proyecto&gt;</em>.rtfd.org</li>
 </ul>
 </li>
@@ -93,8 +93,8 @@ la culpa no es del chancho sino del que le da de comer -->
 <ul class="simple">
 <li>Aprendamos a escribir [documentación].</li>
 <li>Nadie conoce tu proyecto más que vos</li>
-<li>Podés conseguirte un Alan Gaynor</li>
-<li>Y te hace mejor desarrollador, persona y héroe mío</li>
+<li>Podés sumar un Alan Gaynor que te ayude</li>
+<li>Y te hace mejor profesional, desarrollador, persona y héroe mío</li>
 <li>Ah, casi me olvido</li>
 </ul>
 <blockquote class="epigraph">
@@ -108,14 +108,14 @@ la culpa no es del chancho sino del que le da de comer -->
 <p class="attribution">&mdash;README.txt</p>
 </blockquote>
 <ul class="simple">
-<li>Es obligatorio para PyPi, github y bitbucket.</li>
+<li>Es obligatorio para PyPi, Github y Bitbucket.</li>
 <li>Pero sobre todo <strong>es útil</strong> para tus usuarios y para vos<ul>
 <li>Escribilo <em>ANTES</em> de programar</li>
 </ul>
 </li>
 </ul>
 </section><section id="y-luego-que-escribo">
-<h2>y luego, qué escribo?</h2>
+<h2>Y luego, ¿qué escribo?</h2>
 <img alt="img/bloqueado.jpg" class="align-center" src="img/bloqueado.jpg" />
 </section><section id="tutorial-paso-a-paso">
 <h2>Tutorial paso a paso</h2>
@@ -125,7 +125,7 @@ la culpa no es del chancho sino del que le da de comer -->
 </ul>
 </li>
 <li>Qué funcione fácil:<ul>
-<li>No sólo en tu máquina de desarrollo.</li>
+<li>No sólo en tu máquina de desarrollo</li>
 </ul>
 </li>
 <li>Pero que no sea tan fácil:<ul>
@@ -150,7 +150,7 @@ la culpa no es del chancho sino del que le da de comer -->
 </section><section id="referencia">
 <h2>Referencia</h2>
 <ul class="simple">
-<li>La API</li>
+<li>La <em>API</em></li>
 <li>Para el que ya sabe <em>cómo</em></li>
 <li>pero quiere saber/recordar el parámetro exácto</li>
 <li>O una configuración particular</li>
@@ -158,14 +158,14 @@ la culpa no es del chancho sino del que le da de comer -->
 </section><section id="documentar-en-el-codigo">
 <h2>Documentar en el código</h2>
 <pre class="literal-block">
-&gt;&gt;&gt; class Ejemplo(object):
+class Ejemplo(object):
 
-                &quot;&quot;&quot;Es fácil y útil&quot;&quot;&quot;
+    &quot;&quot;&quot;Es fácil y útil&quot;&quot;&quot;
 
-                def mostrar(self):
-                        &quot;&quot;&quot;muestra un ejemplito&quot;&quot;&quot;
+    def mostrar(self):
+        &quot;&quot;&quot;muestra un ejemplito&quot;&quot;&quot;
 
-                        return self.mostrar.__doc__
+        return self.mostrar.__doc__
 
 &gt;&gt;&gt; Ejemplo().mostrar()
 'muestra un ejemplito'
@@ -201,8 +201,9 @@ la culpa no es del chancho sino del que le da de comer -->
 </section><section id="ultima-bajada-de-linea">
 <h2>Ultima bajada de línea</h2>
 <ul class="simple">
-<li>Bugs son bugs. Tambien en la docu.<ul>
+<li>Bugs son bugs. Tambien en la documentación.<ul>
 <li>Corregilos. (propios y ajenos)</li>
+<li>Doctests pueden ayudar</li>
 </ul>
 </li>
 <li>Un feature cerrado se compone de<ul>
@@ -265,10 +266,10 @@ rtd pip git
 
       <!-- The navigational controls UI -->
       <aside class="controls">
-	<a class="left" href="#">&#x25C4;</a>
-	<a class="right" href="#">&#x25BA;</a>
-	<a class="up" href="#">&#x25B2;</a>
-	<a class="down" href="#">&#x25BC;</a>
+    <a class="left" href="#">&#x25C4;</a>
+    <a class="right" href="#">&#x25BA;</a>
+    <a class="up" href="#">&#x25B2;</a>
+    <a class="down" href="#">&#x25BC;</a>
       </aside>
 
       <!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
